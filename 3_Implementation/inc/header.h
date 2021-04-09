@@ -15,5 +15,6 @@ typedef enum error_t
 
 typedef struct battery_param
 {
-    
-}
+    float voltage;
+    float capacity;
+}battery_param;
