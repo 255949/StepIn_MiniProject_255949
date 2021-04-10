@@ -35,4 +35,6 @@ typedef enum error_t
     ERROR=-1
 }error_t;
 
+error_t filer_calc(filter_param f1,int choice);
+
 #endif
