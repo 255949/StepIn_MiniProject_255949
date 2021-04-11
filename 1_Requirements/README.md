@@ -16,7 +16,7 @@
 ## Defining Our System
     -- TBD
 ## SWOT Analysis
-<img src="1_Requirements/SWOT_Analysis.png">
+<img src="/1_Requirements/SWOT_Analysis.png">
 
 # 4W&#39;s and 1&#39;H
 
