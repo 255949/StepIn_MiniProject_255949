@@ -16,7 +16,7 @@
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![SWOT-Analysis](https://github.com/255949/StepIn_MiniProject_255949/1_Requirements/SWOT_Analysis.png)
 
 # 4W&#39;s and 1&#39;H
 
