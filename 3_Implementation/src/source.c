@@ -20,7 +20,7 @@ error_t filer_calc(filter_param f1,int choice)
             } 
             else if (choice==3)
             {
-                f1.freq=f1_param.r/(2*3.14*f1.l);
+                f1.freq=f1.r/(2*3.14*f1.l);
                 printf("Cutoff Frequency of RL Filter : %.3f\n",f1.freq);
             }
             return SUCCESS;
