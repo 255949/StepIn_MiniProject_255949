@@ -27,4 +27,25 @@ error_t filer_calc(filter_param f1,int choice)
         }
 }
 
-error_t 
+error_t opamp_calc(opamp_param o1,int choice)
+{
+    if(o1==NULL)
+        return ERROR;
+    else
+    {
+        if(choice==1)
+        {
+            o1.gain=(1+(o1.r2/o1.r1));
+            printf("Non Inverting Gain : %.2f\n",o1.gain);
+        }
+        else
+        {
+            o1.gain=(1+(o1.r2/o1.r1));
+            printf("Inverting Gain : -%.2f\n",o1.gain);
+        }
+        return SUCCESS;
+    }
+
+}
+
+error_t  timer_calc(timer_param t1,)

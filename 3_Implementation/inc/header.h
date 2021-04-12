@@ -11,11 +11,13 @@ typedef struct filter_param
     float freq;
 }filter_param;
 
-typedef struct opapm_param
+typedef struct opamp_param
 {
     int r1;
     int r2;
-}
+    float gain;
+}opamp_param;
+
 typedef struct timer_param
 {
     int r1;
