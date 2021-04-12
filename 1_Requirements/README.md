@@ -22,23 +22,23 @@
 
 ## Who:
 
-**TBD**
+* Any electronics enthusiast, hobbyists or student.
 
 ## What:
 
-**TBD**
+* The mathematical complexity of electronics design can be reduced by such a utility. The paramaters calculated can be easily used for real world implementation.
 
 ## When:
 
-**TBD**
+* Anyone who is new to electronics design faces these issues in the beginning, and even later the utility can be used for convenience.
 
 ## Where:
 
-**TBD**
+** Colleges where student are beginning to learn design concepts, smaller industries to calculate more complex parameters.
 
 ## How:
 
-**TBD**
+* Wrong implementation of the utility can result in wrong output which can severely affect the real world project or system.
 
 # Detail requirements
 ## High Level Requirements:
