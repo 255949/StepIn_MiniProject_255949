@@ -1,12 +1,12 @@
 #include "unity.h"
-#include "header.h";
+#include "header.h"
 
-void setUp
+void setUp()
 {
 
 }
 
-void tearDown
+void tearDown()
 {
 
 }
