@@ -42,8 +42,13 @@
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+| ID   | Description                                                       | Category  | Status |
+|------|-------------------------------------------------------------------|-----------|--------|
+| HR01 | User should be able to calculate Filter Parameters                | Technical | TBD-S1 |
+| HR02 | User should be able to calculate OpAmp Gain                       | Technical | TBD-S1 |
+| HR03 | User should be able to find duty cycle and frequency of 555 Timer | Technical | TBD-S1 |
+| HR04 | User should be able to find battery parameters                    | Technical | TBD-S1 |
+| HR05 | User should be able to find reactance of inductors and capacitors | Technical | TBD-S1 |
 
 
 ##  Low level Requirements:
