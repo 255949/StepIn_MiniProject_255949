@@ -60,5 +60,6 @@ int main()
     UNITY_BEGIN();
     RUN_TEST(fil_test);
     RUN_TEST(op_test);
+    RUN_TEST(timer_test);
     return UNITY_END();
 }
