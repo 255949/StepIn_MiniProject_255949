@@ -5,10 +5,11 @@
 int main()
 {
     printf("ELECTRONICS PARAMTERS CALCULATOR\n");
+    printf("1. Filter Parameters\n2. Op Amp Parameters\n3. 555 Timer Parameters\n4. Battery Runtime\n5. Reactance Calculator\n6. Exit the program");
     int choice=0;
     while(choice!=6)
     {
-    printf("Enter you choice\n");
+    printf("\n\nEnter your choice\n");
     scanf("%d",&choice);
     if(choice==1)
     {
@@ -85,21 +86,21 @@ int main()
         scanf("%d",&rchoice);
         if(rchoice==1)
         {
-            printf("Enter Capacitance and frequency: \n");
+            printf("Enter Capacitance in microfarads and frequency in hertz : \n");
             scanf("%f%d",&value,&freq);
-            float result=1/reactance(freq,value);
-            printf("Capacitive Reactance : %f",result);
+            float react=1/(0.000001*reactance(freq,value));
+            printf("Capacitive Reactance : %.2f ohms\n",react);
         }
         else
         {
-            printf("Enter Inductance and frequency: \n");
+            printf("Enter Inductance in millihenry and frequency in hertz: \n");
             scanf("%f%d",&value,&freq);
-            float result=reactance(freq,value);
-            printf("Inductive Reactance : %f",result);
+            float react=0.001*reactance(freq,value);
+            printf("Inductive Reactance : %.2f ohms\n",react);
         }
     }
     else if(choice==6)
-    printf("Thank you\n");
+    printf("Thank you for using Electronics Calculator!\n");
     else
         printf("Please enter correct option\n");
     }
