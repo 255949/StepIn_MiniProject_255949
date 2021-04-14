@@ -3,7 +3,11 @@ TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build
 
-SRC = src/source.c
+SRC = src/filter.c\
+opamp.c\
+timer.c\
+battery.c\
+reac.c
 
 TEST_SRC = test/test.c\
 unity/unity.c
