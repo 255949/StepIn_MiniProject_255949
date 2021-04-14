@@ -14,7 +14,7 @@
 ![Description](Link to Pic)
 -- Content 
 ## Defining Our System
-    -- TBD
+<img src="/1_Requirements/System_Architecture.png">
 ## SWOT Analysis
 <img src="/1_Requirements/SWOT_Analysis.png">
 
