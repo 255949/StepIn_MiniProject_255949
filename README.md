@@ -1,5 +1,6 @@
 # Electronics Parameters Calculator with SDLC
 
+<img src="/1_Requirements/Electronics Parameters Calculator.png">
 
 
 | Build                                                                                       | Code Quality | Unity | [Git Inspector](using github.io option) |
