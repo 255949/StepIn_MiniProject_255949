@@ -55,11 +55,25 @@ void timer_test()
     TEST_ASSERT_EQUAL(timer_calc(&t1,2),SUCCESS);
     TEST_ASSERT_EQUAL(4.373,t1.freq);
 }
+
+void batt_test()
+{
+    TEST_ASSERT_EQUAL(battery_calc(10000,3.3),3030.30);
+    TEST_ASSERT_EQUAL(battery_calc(5000,15),333.33);
+}
+
+void reac_test()
+{
+    TEST_ASSERT_EQUAL(reactance(50,220),69080.);
+    TEST_ASSERT_EQUAL(reactance(200,1000),1256000);
+}
 int main()
 {
     UNITY_BEGIN();
     RUN_TEST(fil_test);
     RUN_TEST(op_test);
     RUN_TEST(timer_test);
+    RUN_TEST(batt_test);
+    RUN_TEST(reac_test);
     return UNITY_END();
 }

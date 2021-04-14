@@ -37,7 +37,7 @@ int main()
             result=filter_calc(&f1,fil_choice);
         }
         else
-            printf("Please enter the correct option");
+            printf("Please enter the correct option\n");
     }
     else if (choice==2)
     {
@@ -82,7 +82,7 @@ int main()
     {
         float value;int freq;
         int rchoice;
-        printf("Enter 1 for capacitive reactance or 2 for inductive reactance");
+        printf("Enter 1 for capacitive reactance or 2 for inductive reactance\n");
         scanf("%d",&rchoice);
         if(rchoice==1)
         {
