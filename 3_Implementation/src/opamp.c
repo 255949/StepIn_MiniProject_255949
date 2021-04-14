@@ -2,6 +2,11 @@
 #include "header.h"
 #include<math.h>
 
+/**
+ * @brief Structure for storing OpAmp Paramters
+ * R1 and R2 - Resistances required for configuration
+ * gain - To store calculated gain
+ */
 error_t opamp_calc(opamp_param *o1,int choice)
 {
     if(o1==NULL)

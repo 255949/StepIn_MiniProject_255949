@@ -2,6 +2,13 @@
 #include "header.h"
 #include<math.h>
 
+/**
+ * @brief Structure for storing filter parameters
+ * R- Resistance
+ * C- Capacitance
+ * L- Inductance
+ * freq - To store calclulated cutoff Frequency
+ */
 error_t filter_calc(filter_param *f1,int choice)
 {
     if(f1==NULL)

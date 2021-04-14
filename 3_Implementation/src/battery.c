@@ -2,6 +2,13 @@
 #include "header.h"
 #include<math.h>
 
+/**
+ * @brief Battery Runtime calculation function
+ * 
+ * @param c Capacity of battery
+ * @param i Discharge current
+ * @return float Returns runtime value
+ */
 float battery_calc(int c, float i)
 {
     float time=(float)c/i;

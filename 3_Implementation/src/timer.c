@@ -2,6 +2,11 @@
 #include "header.h"
 #include<math.h>
 
+/**
+ * @brief Structure for storing 555 Timer parameters
+ * R1,R2 and C - Resistors and Capacitor required for configuration into Astable or Monostable Mode
+ * freq - To store frequency of generated square wave in Astable mode and time period of pulse in Monostable mode
+ */
 error_t  timer_calc(timer_param *t1,int choice)
 {
     if(t1==NULL)
