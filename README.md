@@ -23,10 +23,10 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+| ID | Problem                                     | Solution                                                      |
+|----|---------------------------------------------|---------------------------------------------------------------|
+| 1. | Unity Test Case Failing                     | Incorrect Makefile command, changing the code fixed the error |
+| 2. | Problem during function call with structure | Pointer to structure fixed the error                          |
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
