@@ -15,12 +15,15 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
+`5_Report`         | MiniProject Report
+`6_ImagesAndVideos`| Files containing working video and images
+`7_Other`          | Other Supporting Documents
 
 ## Contributors List and Summary
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-255949 | Ayushman Ranu  | Function Implementatio, Diagrams and Comments    | X No     | X No   |X No   |X No       
+255949 | Ayushman Ranu  | Function Implementatio, Diagrams and Comments    | X No     | X No   | 21   | 21       
 
 ## Challenges Faced and How Was It Overcome
 
