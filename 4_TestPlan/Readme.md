@@ -8,7 +8,7 @@
 | H_02    | Test function calculating the gain for opamp                    | Structure with OpAmp parameters and choice of gain         | Gain                    | SUCCESS    | Scenario Based |
 | H_03    | Test function calculating frequency and duty cycle of 555 timer | Structure with Timer characteristics and mode of operation | Frequency or Time delay | SUCCESS    | Scenario Based |
 | H_04    | Test function calculating battery runtime                       | Capacity of Battery and discharge current                  | Runtime                 | float time | Scenario Based |
-| H_05    | Test function calculating reactance                             | Frequency of operation and Capacitance/Inductance          | Reactance               | float reac |                |
+| H_05    | Test function calculating reactance                             | Frequency of operation and Capacitance/Inductance          | Reactance               | float reac | Scenario Based               |
 
 ## Table no: Low level test plan
 
