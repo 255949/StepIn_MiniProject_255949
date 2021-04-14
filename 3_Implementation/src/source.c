@@ -55,7 +55,7 @@ error_t opamp_calc(opamp_param *o1,int choice)
         }
         else
         {
-            printf("Please enter correct choice");
+            printf("Please enter correct choice\n");
             return ERROR;
         }
 
