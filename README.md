@@ -4,7 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 | Build                                                                                       | Code Quality | Unity | [Git Inspector](using github.io option) |
 |---------------------------------------------------------------------------------------------|--------------|-------|-----------------------------------------|
-| [![C/C++ Build CI](https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/c-cpp.yml) | [![Static Check](https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/cppcheck.yml/badge.svg)](  https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/cppcheck.yml)      |       |                                         |
+| [![C/C++ Build CI](https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/c-cpp.yml) | [![Static Check](https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/cppcheck.yml/badge.svg)](  https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/cppcheck.yml)      | [![Unity Test](https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/unity.yml/badge.svg)](https://github.com/255949/StepIn_MiniProject_255949/actions/workflows/unity.yml)       |                                         |
 
 
 ## Folder Structure
