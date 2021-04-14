@@ -64,7 +64,7 @@ void batt_test()
 
 void reac_test()
 {
-    TEST_ASSERT_EQUAL(reactance(50,220),69080.);
+    TEST_ASSERT_EQUAL(reactance(50,220),69080);
     TEST_ASSERT_EQUAL(reactance(200,1000),1256000);
 }
 int main()
