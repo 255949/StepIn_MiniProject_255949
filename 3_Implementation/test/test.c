@@ -21,7 +21,7 @@ void tearDown()
 
 /**
  * @brief Test cases first check successful return of enum 'SUCCESS'.
- * and int the second test case check the calculated value stored in the freq member of structure.
+ * and in the second test case check the calculated value stored in the freq member of structure.
  * A dummy test case with wrong input is also provided.
  */
 void fil_test()
@@ -43,7 +43,7 @@ void fil_test()
 
 /**
  * @brief Test cases first check successful return of enum 'SUCCESS'.
- * and int the second test case check the calculated value stored in the gain member of structure.
+ * and in the second test case check the calculated value stored in the gain member of structure.
  * A dummy test case with wrong input is also provided.
  */
 void op_test()
@@ -61,7 +61,7 @@ void op_test()
 
 /**
  * @brief Test cases first check successful return of enum 'SUCCESS'.
- * and int the second test case check the calculated value stored in the freq member of structure.
+ * and in the second test case check the calculated value stored in the freq member of structure.
  * A dummy test case with wrong input is also provided.
  */
 void timer_test()
