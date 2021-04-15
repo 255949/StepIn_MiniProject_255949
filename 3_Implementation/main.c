@@ -76,26 +76,28 @@ int main()
         float current;
         printf("Enter capacity of battery in mAh and discharge current in mA : \n");
         scanf("%d%f",&capacity,&current);
-        float time=battery_calc(capacity,current);
+        func_ptr=battery_calc;
+        float time=func_ptr(capacity,current);
     }
     else if(choice==5)
     {
         float value;int freq;
         int rchoice;
+        func_ptr=reactance;
         printf("Enter 1 for capacitive reactance or 2 for inductive reactance\n");
         scanf("%d",&rchoice);
         if(rchoice==1)
         {
             printf("Enter Capacitance in microfarads and frequency in hertz : \n");
             scanf("%f%d",&value,&freq);
-            float react=1/(0.000001*reactance(freq,value));
+            float react=1/(0.000001*func_ptr(freq,value));
             printf("Capacitive Reactance : %.2f ohms\n",react);
         }
         else
         {
             printf("Enter Inductance in millihenry and frequency in hertz: \n");
             scanf("%f%d",&value,&freq);
-            float react=0.001*reactance(freq,value);
+            float react=0.001*func_ptr(freq,value);
             printf("Inductive Reactance : %.2f ohms\n",react);
         }
     }

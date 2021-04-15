@@ -58,6 +58,8 @@ typedef enum error_t
     ERROR=-1
 }error_t;
 
+float (*func_ptr)(int,float);
+
 /**
  * @brief Function for calculation of cutoff frequency
  * 
