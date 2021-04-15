@@ -58,6 +58,11 @@ typedef enum error_t
     ERROR=-1
 }error_t;
 
+/**
+ * @brief Function pointer used for calling either the battery runtime or reactance functions
+ * The battery function requires capacity(int) and current(float) while
+ * the reactance function requires frequency(int) and value(float)
+ */
 float (*func_ptr)(int,float);
 
 /**

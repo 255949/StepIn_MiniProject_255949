@@ -1,20 +1,29 @@
 #include "unity.h"
 #include "header.h"
 
+/**
+ * @brief Creating the structures required for testing
+ * 
+ */
 static filter_param f1;
 static opamp_param o1;
 static timer_param t1;
 
 void setUp()
 {
-
+    //required by unity
 }
 
 void tearDown()
 {
-
+    //required by unity
 }
 
+/**
+ * @brief Test cases first check successful return of enum 'SUCCESS'.
+ * and int the second test case check the calculated value stored in the freq member of structure.
+ * A dummy test case with wrong input is also provided.
+ */
 void fil_test()
 {
     f1.r=100;f1.c=220;
@@ -32,6 +41,11 @@ void fil_test()
     TEST_ASSERT_EQUAL(filter_calc(&f1,4),ERROR);
 }
 
+/**
+ * @brief Test cases first check successful return of enum 'SUCCESS'.
+ * and int the second test case check the calculated value stored in the gain member of structure.
+ * A dummy test case with wrong input is also provided.
+ */
 void op_test()
 {
     o1.r1=1000;o1.r2=5000;
@@ -45,6 +59,11 @@ void op_test()
     TEST_ASSERT_EQUAL(opamp_calc(&o1,3),ERROR);
 }
 
+/**
+ * @brief Test cases first check successful return of enum 'SUCCESS'.
+ * and int the second test case check the calculated value stored in the freq member of structure.
+ * A dummy test case with wrong input is also provided.
+ */
 void timer_test()
 {
     t1.r1=1000;t1.c=220;
@@ -56,12 +75,20 @@ void timer_test()
     TEST_ASSERT_EQUAL(4.373,t1.freq);
 }
 
+/**
+ * @brief Simple test cases to check calculated values
+ * 
+ */
 void batt_test()
 {
     TEST_ASSERT_EQUAL(battery_calc(10000,3.3),3030.30);
     TEST_ASSERT_EQUAL(battery_calc(5000,15),333.33);
 }
 
+/**
+ * @brief Simple test cases to check calculated values
+ * 
+ */
 void reac_test()
 {
     /* The values returned are high since they do not take microfarads or millihenry into consideration,

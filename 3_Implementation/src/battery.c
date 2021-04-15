@@ -12,6 +12,6 @@
 float battery_calc(int c, float i)
 {
     float time=(float)c/i;
-    printf("For a constant discharge current of %.2f A, the battery will last for %.2f hours",i,time);
+    printf("For a constant discharge current of %.2f A, the battery will last for %.2f hours\n",i,time);
     return time;
 }

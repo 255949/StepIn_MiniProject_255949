@@ -3,11 +3,11 @@
 #include<math.h>
 
 /**
- * @brief Structure for storing filter parameters
- * R- Resistance
- * C- Capacitance
- * L- Inductance
- * freq - To store calclulated cutoff Frequency
+ * @brief Function for calculation of cutoff frequency
+ * 
+ * @param f1 Structure with filter parameters
+ * @param choice choice of RC, LR or LC Filter
+ * @return error_t Returns SUCCESS OR ERROR
  */
 error_t filter_calc(filter_param *f1,int choice)
 {

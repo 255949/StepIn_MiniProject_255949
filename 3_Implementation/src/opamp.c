@@ -3,9 +3,11 @@
 #include<math.h>
 
 /**
- * @brief Structure for storing OpAmp Paramters
- * R1 and R2 - Resistances required for configuration
- * gain - To store calculated gain
+ * @brief Function for gain calculation for opamp
+ * 
+ * @param o1 Structure with opamp parameters
+ * @param choice choice of Inverting or Non Inverting gain
+ * @return error_t Returns SUCCESS OR ERROR
  */
 error_t opamp_calc(opamp_param *o1,int choice)
 {
