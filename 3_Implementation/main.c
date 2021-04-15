@@ -52,9 +52,14 @@ int main()
         int gchoice; // Variable for type of gain input from user
         printf("Enter 1 for Non-Inverting Amplifier or 2 for Inverting Amplifier\n");
         scanf("%d",&gchoice);
-        printf("Enter values of R1 and R2 : \n");
-        scanf("%d%d",&o1.r1,&o1.r2);
-        result=opamp_calc(&o1,gchoice);
+        if(gchoice==1 || gchoice==2)
+        {
+            printf("Enter values of R1 and R2 : \n");
+            scanf("%d%d",&o1.r1,&o1.r2);
+            result=opamp_calc(&o1,gchoice);
+        }
+        else
+            printf("Please enter correct choice\n");
     }
     else if(choice==3)
     {
@@ -69,12 +74,14 @@ int main()
             scanf("%d%d",&t1.r1,&t1.c);
             result=timer_calc(&t1,tchoice);
         }
-        else
+        else if(tchoice==2)
         {
             printf("Enter values of R1, R2 in ohms and C in microfarads\n");
             scanf("%d%d%d",&t1.r1,&t1.r2,&t1.c);
             result=timer_calc(&t1,tchoice);   
         }
+        else
+            printf("Please enter correct choice\n");
     }
     else if(choice==4)
     {
@@ -100,7 +107,7 @@ int main()
             //Multiplying by 10^-6 for microfarads
             printf("Capacitive Reactance : %.2f ohms\n",react);
         }
-        else
+        else if(rchoice==2)
         {
             printf("Enter Inductance in millihenry and frequency in hertz: \n");
             scanf("%f%d",&value,&freq);
@@ -108,6 +115,8 @@ int main()
             // Multiplying by 10^-3 for millihenry
             printf("Inductive Reactance : %.2f ohms\n",react);
         }
+        else
+            printf("Please enter correct choice\n");
     }
     else if(choice==6)
     printf("Thank you for using Electronics Calculator!\n");
