@@ -15,9 +15,6 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
-`5_Report`         | MiniProject Report
-`6_ImagesAndVideos`| Files containing working video and images
-`7_Other`          | Other Supporting Documents
 
 ## Contributors List and Summary
 
@@ -31,9 +28,9 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 |----|---------------------------------------------|---------------------------------------------------------------|
 | 1. | Unity Test Case Failing                     | Incorrect Makefile command, changing the code fixed the error |
 | 2. | Problem during function call with structure | Pointer to structure fixed the error                          |
+| 3. | Functions returning very small values led to 0 being displayed on output | Changed function to return larger values and edited the calculation part |
 
 ## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+1. Futureskills Learning Resources
+2. [C Code Visualizer](http://pythontutor.com/c.html#mode=edit)
+3. Electronics Devices and Circuits by R.L Boylestad

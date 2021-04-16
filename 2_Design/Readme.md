@@ -8,7 +8,7 @@
 
 <img src="/2_Design/Use_Case_Diagram.png">
 
-##Component Diagram
+## Component Diagram
 
 <img src="/2_Design/Component Diagram.png">
 
@@ -16,7 +16,7 @@
 
 <img src="/2_Design/State Diagram.png">
 
-##Class Diagram
+## Class Diagram
 
 <img src="/2_Design/Class_Diagram.png">
 
