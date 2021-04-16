@@ -20,7 +20,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-255949 | Ayushman Ranu  | Function Implementatio, Diagrams and Comments    | X No     | X No   | 21   | 21       
+255949 | Ayushman Ranu  | Function Implementation, Diagrams and Comments    | 0    | 0  | 21   | 21       
 
 ## Challenges Faced and How Was It Overcome
 
